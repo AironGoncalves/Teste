@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ValidacaoAironActivity">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:lineSpacingExtra="@android:dimen/app_icon_size"
+            android:text="      GESTÃO DE PESSOAS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="30sp"
+            android:typeface="serif"
+            app:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/tvNome"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="Nome" />
+
+        <TextView
+            android:id="@+id/tvDataNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:text="DataNascimento" />
+
+        <TextView
+            android:id="@+id/tvPeso"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Peso" />
+
+        <TextView
+            android:id="@+id/tvAltura"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Altura" />
+
+        <Button
+            android:id="@+id/btnValidar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="validar"
+            android:text="Validar"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
